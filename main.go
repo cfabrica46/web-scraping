@@ -48,7 +48,7 @@ func main() {
 	}
 	defer resp.Body.Close()
 
-	r, err := regexp.Compile(`(?s)<h1>.+</h1>`)
+	r, err := regexp.Compile("(?s)<h1>.+</h1>")
 	if err != nil {
 		log.Fatal(err)
 	}
