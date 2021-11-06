@@ -40,6 +40,7 @@ func main() {
 		}
 	}
 	url := fmt.Sprintf("golang.org%s", value)
+
 	fmt.Printf("The url of the last go version is: %s\n", url) */
 
 	resp, err := http.Get("https://www.hectormainar.com/h1.php")
